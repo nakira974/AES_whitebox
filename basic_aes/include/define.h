@@ -13,11 +13,15 @@
 
 typedef uint8_t byte_t;
 
-typedef enum { ascii, hex } format_t;
+typedef enum {
+    ascii, hex
+} format_t;
 
 /* Mode of operation is either electronic codebook (ECB)
  * or cipher block chaining (CBC) */
-typedef enum { ECB, CBC } block_t;
+typedef enum {
+    ECB, CBC
+} block_t;
 
 
 #endif /* DEFINE_H */
